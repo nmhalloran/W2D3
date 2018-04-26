@@ -30,7 +30,7 @@ describe Deck do
 
 
   describe '#create_deck' do
-    before(:each) {name = Deck.new}
+    {name = Deck.new}
     it 'expects deck to receive create deck' do
       expect(name).to receive(:create_deck)
     end
